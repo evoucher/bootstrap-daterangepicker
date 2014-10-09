@@ -13,7 +13,7 @@ into the text box. Otherwise, you can provide a custom callback function to rece
 
 The component can also be used as a single date picker by setting the `singleDatePicker` option to `true`.
 
-**[View a demo](http://www.dangrossman.info/2012/08/20/a-date-range-picker-for-twitter-bootstrap/)** or **[Try it in a live application](https://demo.improvely.com/reports/mywebshop/overview)**
+**[View a demo](http://www.dangrossman.info/2012/08/20/a-date-range-picker-for-twitter-bootstrap/)** or **[Try it in a live application](https://awio.iljmp.com/5/drpdemogh)**
 
 ## Usage
 
@@ -95,6 +95,8 @@ $('input[name="daterange"]').daterangepicker(
 `locale`: (object) Allows you to provide localized strings for buttons and labels, and the first day of week for the calendars
 
 `singleDatePicker`: (boolean) Show only a single calendar to choose one date, instead of a range picker with two calendars; the start and end dates provided to your callback will be the same single date chosen
+
+`parentEl`: (string) jQuery selector of the parent element that the date range picker will be added to, if not provided this will be `'body'`
 
 ## Functions
 
